@@ -1,0 +1,2 @@
+SELECT AVG(TIMESTAMPDIFF(YEAR, birthday_at, NOW()))
+FROM users;
